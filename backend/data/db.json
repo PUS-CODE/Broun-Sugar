@@ -34,6 +34,13 @@
       "passwordHash": "moumita123",
       "id": "cust-7695",
       "role": "customer"
+    },
+    {
+      "name": "papay",
+      "email": "dm2p7@gmail.com",
+      "passwordHash": "papay@8101",
+      "id": "cust-6514",
+      "role": "customer"
     }
   ],
   "menuItems": [
@@ -242,8 +249,28 @@
       ],
       "totalAmount": 4610,
       "id": "ord-8784",
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-05-25T00:28:52.641Z"
+    },
+    {
+      "customerName": "papay",
+      "customerEmail": "puspendumaity87@gmail.com",
+      "customerPhone": "70019594593",
+      "address": "Dimondharbour, Sarishahat, Basanta vila ",
+      "type": "delivery",
+      "items": [
+        {
+          "id": "menu-2",
+          "name": "Iced Caramel Macchiato",
+          "price": 280,
+          "quantity": 2,
+          "image": "/images/iced_macchiato.png"
+        }
+      ],
+      "totalAmount": 628,
+      "id": "ord-3400",
+      "status": "completed",
+      "createdAt": "2026-06-02T15:58:48.347Z"
     }
   ],
   "reservations": [
@@ -280,8 +307,20 @@
       "guestCount": 7,
       "specialRequests": "Table Preferred: Table #5 | nothing\n",
       "id": "res-9379",
-      "status": "confirmed",
+      "status": "seated",
       "createdAt": "2026-05-20T18:36:30.810Z"
+    },
+    {
+      "customerName": "papay",
+      "customerEmail": "dm2p7@gmail.com",
+      "customerPhone": "7001959493",
+      "date": "2026-06-17",
+      "timeSlot": "10:00 AM",
+      "guestCount": 2,
+      "specialRequests": "Table Preferred: Table #2 | it for my sprcial person so table aranged by rose and another flower with a candle\n",
+      "id": "res-6107",
+      "status": "seated",
+      "createdAt": "2026-06-02T15:54:31.288Z"
     }
   ],
   "reviews": [
@@ -290,7 +329,7 @@
       "customerName": "Aarav Mehta",
       "rating": 5,
       "comment": "The Brown Sugar Hazelnut Frappé is to die for! Easily the best coffee house in town. The aesthetics are so soothing.",
-      "isApproved": true,
+      "isApproved": false,
       "createdAt": "2026-05-17T17:57:46.427Z"
     },
     {
@@ -298,8 +337,16 @@
       "customerName": "Ananya Roy",
       "rating": 5,
       "comment": "Absolutely love their table booking option. Very professional service and delicious fresh croissants. A 10/10!",
-      "isApproved": true,
+      "isApproved": false,
       "createdAt": "2026-05-19T17:57:46.427Z"
+    },
+    {
+      "customerName": "papay",
+      "rating": 4,
+      "comment": "laso good and friendly coffe house and starf responding also fast",
+      "id": "rev-2123",
+      "isApproved": false,
+      "createdAt": "2026-06-02T15:52:32.520Z"
     }
   ]
 }
