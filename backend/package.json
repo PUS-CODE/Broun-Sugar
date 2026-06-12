@@ -4,7 +4,8 @@
   "description": "Backend Express.js server for Brown Sugar Coffee House",
   "main": "src/server.ts",
   "scripts": {
-    "start": " ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
   },
   "keywords": [
